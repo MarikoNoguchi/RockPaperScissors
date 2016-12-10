@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+
+    <string name="rock_paper_scissors">Rock Paper Scissors!</string>
+    <string name="greeting">Hi</string>
+    <string name="greeting2">!</string>
+    <string name="description">Please choose your hand!</string>
+
+    <string name="results">Results</string>
+    <string name="ranking">Ranking</string>
+    <string name="preferences">Preferences</string>
+    <string name="aboutMyself">About Myself</string>
+
+    <string name="rank">rank</string>
+    <string name="name">name</string>
+    <string name="score">score</string>
+    <string name="all_ranking">show all users\' scores</string>
+    <string name="top_three">show top 3 scores</string>
+    <string name="your_score">show only your scores</string>
+    <string name="delete">delete the top score</string>
+
+    <string name="dialog_about_myself">
+        My name is Mariko. I\'m from Japan and studying here as an exchange student.
+        My hobbies include watching music videos on YouTube, cooking and playing the piano.
+        I\'m interested in movies and dramas, so if you have any movies or dramas you recommend, please tell me about it.
+    </string>
+    <string name="close">close</string>
+
+
+    <string name="your_name">Name</string>
+
+    <string name="draw">DRAW</string>
+    <string name="won">WON!</string>
+    <string name="com_won">COMPUTER WON!</string>
+    <string name="again">try again</string>
+    <string name="save">save results and finish</string>
+
+    <string name="round">ROUND</string>
+    <string name="comp">COMPUTER</string>
+</resources>

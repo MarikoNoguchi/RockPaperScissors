@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all_ranking"
+        android:title="@string/all_ranking" />
+    <item
+        android:id="@+id/top_three"
+        android:title="@string/top_three" />
+    <item
+        android:id="@+id/your_score"
+        android:title="@string/your_score" />
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete" />
+</menu>

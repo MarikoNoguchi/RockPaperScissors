@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/results"
+        android:title="@string/results" />
+    <item
+        android:id="@+id/ranking"
+        android:title="@string/ranking" />
+    <item
+        android:id="@+id/preferences"
+        android:title="@string/preferences" />
+    <item
+        android:id="@+id/about_myself"
+        android:title="@string/aboutMyself" />
+</menu>

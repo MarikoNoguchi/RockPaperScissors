@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.mnstate.cw3967me.rockpaperscissors.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rock_paper_scissors"
+        style="@style/title"
+        android:id="@+id/tvRockPaperScissors"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greeting"
+        android:id="@+id/tvGreeting"
+        android:layout_below="@+id/tvRockPaperScissors"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:paddingStart="3dp"
+        android:paddingRight="3dp"
+        android:paddingEnd="3dp"
+        android:text=""
+        android:id="@+id/lblName"
+        android:layout_below="@+id/tvRockPaperScissors"
+        android:layout_toRightOf="@+id/tvGreeting"
+        android:layout_toEndOf="@+id/tvGreeting" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="3dp"
+        android:paddingEnd="3dp"
+        android:text="@string/greeting2"
+        android:id="@+id/tvGreeting2"
+        android:layout_below="@+id/tvRockPaperScissors"
+        android:layout_toRightOf="@+id/lblName"
+        android:layout_toEndOf="@+id/lblName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:id="@+id/tvDescription"
+        android:layout_below="@+id/tvRockPaperScissors"
+        android:layout_toRightOf="@+id/tvGreeting2"
+        android:layout_toEndOf="@+id/tvGreeting2"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgPaper"
+        android:src="@drawable/user_paper"
+        android:background="@drawable/frame"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgRock"
+        android:src="@drawable/user_rock"
+        android:background="@drawable/frame"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/imgPaper"
+        android:layout_toLeftOf="@+id/imgPaper"
+        android:layout_toStartOf="@+id/imgPaper"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgScissors"
+        android:src="@drawable/user_scissors"
+        android:background="@drawable/frame"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/imgPaper"
+        android:layout_toRightOf="@+id/imgPaper"
+        android:layout_toEndOf="@+id/imgPaper"
+        android:clickable="true"
+        />
+</RelativeLayout>
